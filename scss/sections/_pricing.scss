@@ -1,0 +1,116 @@
+.section-pricing {
+  padding: 9.6rem 0 4.8rem 0;
+}
+
+.plan {
+  &-header {
+    text-align: center;
+    margin-bottom: 4.8rem;
+  }
+
+  &-signUp {
+    text-align: center;
+    margin-top: 4.8rem;
+  }
+
+  &-details {
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+}
+
+.pricing {
+  &-plan {
+    background-color: #fdf2e9;
+    border-radius: 11px;
+    width: 75%;
+
+    &--starter {
+      justify-self: end;
+      background-color: #fff;
+      border: 2px solid #fdf2e9;
+      padding: 4.6rem;
+    }
+
+    &--complete {
+      position: relative;
+      padding: 4.8rem;
+      overflow: hidden;
+
+      &:after {
+        content: "Best value";
+        position: absolute;
+        top: 6%;
+        right: -18%;
+
+        padding: 0.8rem 8rem;
+
+        font-size: 1.4rem;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        color: #333;
+        background-color: #ffd43b;
+
+        transform: rotate(45deg);
+      }
+    }
+
+    &_name {
+      color: #cf711f;
+
+      font-size: 1.6rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.75;
+
+      margin-bottom: 2.8rem;
+    }
+
+    &_price {
+      font-size: 7.4rem;
+      font-weight: 600;
+      color: #333;
+
+      margin-bottom: 1.6rem;
+
+      & span {
+        font-size: 3rem;
+        font-weight: 500;
+        margin-right: 0.8rem;
+      }
+    }
+
+    &_text {
+      font-size: 1.8rem;
+      line-height: 1.8;
+      color: #6f6f6f;
+    }
+  }
+}
+
+.feature {
+  &-icon {
+    color: #e67e22;
+    background-color: #fdf2e9;
+    padding: 1.6rem;
+    border-radius: 50%;
+
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-bottom: 3.2em;
+  }
+
+  &-title {
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+  }
+
+  &-text {
+    font-size: 1.8rem;
+    line-height: 1.8;
+  }
+}
